@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <h1>Novell Service Login</h1>
+    <form action="">
+      <table border="2px solid black">
+        <thead></thead>
+        <tbody>
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" /></td>
+          </tr>
+          <tr>
+            <td><label for="city">City of Employment:</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="webserver">Web server:</label></td>
+            <td>
+              <select name="" id="">
+                <option>please choose</option>
+                <option value="server1">server1</option>
+                <option value="server2">server2</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="role">Please specify your role:</label></td>
+            <td>
+              <input type="radio" name="" id="" />Admin <br />
+              <input type="radio" name="" id="" />Engineer <br />
+              <input type="radio" name="" id="" /> Manager <br />
+              <input type="radio" name="" id="" /> Guest <br />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="sign-on">Single sign-on to the following:</label>
+            </td>
+            <td>
+              <input type="checkbox" name="" id="" />mail
+              <input type="checkbox" name="" id="" />payroll
+              <input type="checkbox" name="" id="" />self service
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <input type="submit" value="submit" />
+
+      <input type="reset" value="reset" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+body {
+  background-image: url("/basic html/ima.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ex1 {
+  color: aqua;
+}
+.ex2:hover {
+  color: red;
+}

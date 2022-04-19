@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <form action="">
+      <table border="2px solid black">
+        <tbody>
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="icno">IC No:</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="address">Address:</label>
+            </td>
+            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td>
+              <input type="radio" name="" id="" />male <br />
+              <input type="radio" name="" id="" />female
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="dance">Dance Type:</label>
+            </td>
+            <td>
+              <input type="checkbox" name="" id="" />zapin
+              <input type="checkbox" name="" id="" />joget
+              <input type="checkbox" name="" id="" />inang
+              <input type="checkbox" name="" id="" /> lion dance
+            </td>
+          </tr>
+          <tr>
+            <td><label for="competition">Competition:</label></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><label for="eyecolor">Nationality:</label></td>
+            <td><input list="country"></input>
+              <datalist id="country">
+                <option value="India"></option>
+                <option value="USA"></option>
+                <option value="Canada"></option>
+                <option value="Nepal"></option>
+              </datalist>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" /></td>
+          </tr>
+        </tbody>
+      </table>
+      <input type="submit" value="submit" />
+
+      <input type="reset" value="cancel" />
+    
+    </form>
+  </body>
+</html>

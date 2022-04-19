@@ -1,0 +1,27 @@
+* {
+  background-color: bisque;
+  font-size: larger;
+}
+P {
+  background-color: aqua;
+  color: burlywood;
+  font-size: large;
+}
+#p3 {
+  background-color: chartreuse;
+  color: coral;
+  font-size: medium;
+}
+.p4 {
+  background-color: yellowgreen;
+  color: cornflowerblue;
+  font-size: medium;
+}
+
+a[target] {
+  color: darkblue;
+  background-color: whitesmoke;
+}
+h1[title] {
+  color: tomato;
+}
