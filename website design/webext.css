@@ -1,0 +1,60 @@
+body {
+  background-color: seashell;
+}
+
+h1 {
+  text-align: center;
+  box-shadow: 20px 0px 20px red;
+  border-radius: 50%;
+  width: 300px;
+  margin-left: 40%;
+  margin-top: 3%;
+}
+nav {
+  margin-top: 4%;
+  box-shadow: 0px 0px 30px grey;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 200%;
+  margin-left: 5%;
+}
+h1:hover {
+  color: blue;
+  background-color: aqua;
+}
+a:hover {
+  color: blue;
+}
+img {
+  border-radius: 70%;
+  height: 500px;
+  width: 500px;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+p {
+  border-radius: 70%;
+  height: 300px;
+  width: 300px;
+  padding: 100px;
+  box-shadow: 0px 0px 30px red;
+  margin-left: 650px;
+  margin-top: -500px;
+  background-color: aquamarine;
+  font-family: cursive;
+  font-size: 15px;
+  text-align: justify;
+}
+h4 {
+  text-align: center;
+  box-shadow: 0px 0px 40px red;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
