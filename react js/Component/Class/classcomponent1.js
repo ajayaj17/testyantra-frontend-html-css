@@ -27,6 +27,12 @@ class Footer extends React.Component {
   }
 }
 
+// class Add extends React.Component {  //can not change value this way
+//   render() {
+//     this.props.uname = "aja";
+//     return this.props.uname;
+//   }
+// }
 const root = ReactDOM.createRoot(document.getElementById("container"));
 root.render(
   <div>

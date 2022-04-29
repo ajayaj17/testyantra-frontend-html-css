@@ -5,10 +5,18 @@ class Form extends React.Component {
         <h1>Login</h1>
         <form>
           <label for="userName">Username</label>
-          <input type="text" name="userName" value={this.userName}></input>
+          <input
+            type="text"
+            name="userName"
+            value={this.props.userName}
+          ></input>
           <br></br>
           <label for="password">Password</label>
-          <input type="password" name="password" value={this.password}></input>
+          <input
+            type="password"
+            name="password"
+            value={this.props.password}
+          ></input>
           <br></br>
           <button type="submit">submit</button>
         </form>

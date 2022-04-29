@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./functionalcomponent.css" />
   </head>
   <body>
+    <div id="root">
+      <form>
+        <label for="userName">Username</label>
+        <input id="t1" type="text" name="userName" /><br /><br />
+        <label for="password">Password</label>
+        <input id="t2" type="password" name="password" /><br /><br />
+        <button onclick="login();">Login</button>
+      </form>
+    </div>
     <div id="container">
       <script
         crossorigin
@@ -23,7 +31,7 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
       ></script>
-      <script type="text/babel" src="./functionalcomponent.js"></script>
+      <script type="text/babel" src="./validation1.js"></script>
     </div>
   </body>
 </html>

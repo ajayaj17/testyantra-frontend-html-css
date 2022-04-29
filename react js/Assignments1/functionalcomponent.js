@@ -1,5 +1,5 @@
-function Note() {
-  return <textarea></textarea>;
+function Note(props) {
+  return <textarea id="t1">{props.val}</textarea>;
 }
 
-ReactDOM.render(<Note />, document.getElementById("container"));
+ReactDOM.render(<Note val="type here" />, document.getElementById("container"));
