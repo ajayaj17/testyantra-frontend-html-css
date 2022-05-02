@@ -4,7 +4,7 @@ function MyApp() {
   const updateChanges = () => {
     // setName("Smith");
     // setName({ ...name, lname: "rai" });
-    setName(...name, (name[1] = "rai"));
+    setName([...name, (name[1] = "rai"]));
   };
   //   const [name, setName] = React.useState("Allen");
   //   const [name, setName] = React.useState({ fname: "Allen", lname: "smriti" });
