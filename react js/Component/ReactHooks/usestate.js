@@ -1,14 +1,20 @@
 function MyApp() {
   //   let arr = [];
   //   arr.map();
-  const updateChanges = () => {
+  const add = () => {
     // setName("Smith");
     // setName({ ...name, lname: "rai" });
-    setName([...name, (name[1] = "rai"]));
+    setName([...name, Math.ceil(Math.random() * 100) + " "]);
   };
+  const remove = () => {
+    const temp1 = [...name];
+    temp1.pop();
+    setName([...temp1]);
+  };
+
   //   const [name, setName] = React.useState("Allen");
   //   const [name, setName] = React.useState({ fname: "Allen", lname: "smriti" });
-  const [name, setName] = React.useState(["Allen", "smriti"]);
+  const [name, setName] = React.useState(["Allen ", "smriti "]);
   return (
     <div>
       {/* <h1>{name}</h1>
@@ -17,10 +23,17 @@ function MyApp() {
       <h1>{name}</h1>
       <button
         onClick={() => {
-          updateChanges();
+          add();
         }}
       >
-        click
+        click to add
+      </button>
+      <button
+        onClick={() => {
+          remove();
+        }}
+      >
+        click to remove
       </button>
     </div>
   );
